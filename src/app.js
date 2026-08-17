@@ -90,13 +90,18 @@ app.use((err, req, res, next) => {
 
 /* Levantar servidor en puerto disponible */
 (async () => {
-  const PORT = await getPort({ port: [8000, 8080, 8081, 8082] });
+  // En Railway/Render el puerto viene por variable de entorno PORT.
+  // Si no existe (desarrollo local), usamos get-port como antes.
+  const PORT = process.env.PORT || await getPort({ port: [8000, 8080, 8081, 8082] });
   app.listen(PORT, () => {
     const startMessage = `Server running on http://localhost:${PORT}`;
     console.log(startMessage);
     writeLog(startMessage);
   });
-  
-  // Iniciar webhook server
-  webhook.startWebhook();
+
+  // El webhook de auto-deploy es para el PC local (Windows) del equipo.
+  // En producción (Railway/Render) no tiene sentido y puede fallar, así que se omite.
+  if (process.env.NODE_ENV !== "production") {
+    webhook.startWebhook();
+  }
 })();
