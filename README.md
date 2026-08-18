@@ -18,6 +18,17 @@
 
 &nbsp;&nbsp;&nbsp;Junto a eso, hay una pequeña **API JSON interna** que expone datos de la tienda (cantidad de usuarios y productos, desglose por categoría, etc.), construida específicamente para alimentar un **dashboard de administración** separado — una SPA independiente en **React + Vite** con estilos de **Material UI**, con gráficos y paneles para tener una vista rápida y visual de los números de la tienda. Ambas aplicaciones funcionan de forma independiente pero comparten la misma base de datos a través de la API.
 
+&nbsp;&nbsp;&nbsp;En cuanto al diseño visual del sitio principal, aplicamos un enfoque **adaptativo/responsive (mobile-first)**, pensado primero para pantallas de celulares y luego adaptado a tablets y PC mediante **media queries hechas a mano**. A su vez, utilizamos **Bootstrap vía CDN** como apoyo para algunos componentes y utilidades de maquetado.
+
+## &#x1F680; Despliegue
+
+&nbsp;&nbsp;&nbsp;El sitio principal está desplegado en Railway y puede visitarse en **[gruposie7e-production.up.railway.app](https://gruposie7e-production.up.railway.app/)**.
+
+&nbsp;&nbsp;&nbsp;Para probar las funcionalidades del panel de administración, podés iniciar sesión con las siguientes credenciales de prueba:
+
+- **Usuario:** `mateodiaz@example.com`
+- **Contraseña:** `password123`
+
 ## &#x1F3AF; Audiencia Objetivo y Oferta
 
 &nbsp;&nbsp;&nbsp;Nos dirigimos al público en general de la ciudad de La Rioja, Argentina, que busca una buena relación entre precio/calidad/cantidad a la hora de comprar comida online. Para atender a esa audiencia, el sitio ofrece una variedad de sánguches para todos los gustos — apto veganos, apto vegetarianos y apto celíacos — complementada con snacks, postres y bebidas, todo disponible a través de un flujo simple de navegación, carrito y checkout.

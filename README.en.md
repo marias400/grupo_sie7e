@@ -18,6 +18,17 @@
 
 &nbsp;&nbsp;&nbsp;Alongside that, there's a small **internal JSON API** exposing store data (user and product counts, category breakdowns, etc.), built specifically to feed a separate **admin dashboard** — a standalone **React + Vite** single-page app styled with **Material UI**, with charts and panels for a quick, visual overview of the store's numbers. The two apps run independently but share the same underlying database through the API.
 
+&nbsp;&nbsp;&nbsp;On the visual design side of the main site, we followed an **adaptive/responsive (mobile-first)** approach, designed first for mobile screens and then adapted for tablets and desktops using **hand-written media queries**. We also used **Bootstrap via CDN** to support some components and layout utilities.
+
+## &#x1F680; Deployment
+
+&nbsp;&nbsp;&nbsp;The main site is deployed on Railway and can be visited at **[gruposie7e-production.up.railway.app](https://gruposie7e-production.up.railway.app/)**.
+
+&nbsp;&nbsp;&nbsp;To try out the admin panel's features, you can log in with the following test credentials:
+
+- **Username:** `mateodiaz@example.com`
+- **Password:** `password123`
+
 ## &#x1F3AF; Target Audience & Offer
 
 &nbsp;&nbsp;&nbsp;We're building for the general public of La Rioja, Argentina looking for a good balance of price, quality, and quantity when ordering food online. To serve that audience, the site offers a varied sandwich menu with options for every diet — vegan, vegetarian, and celiac-friendly — complemented by snacks, desserts, and drinks, all orderable through a simple browse-cart-checkout flow.
