@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 
-const base_url = "http://localhost:8000/";
+const base_url =
+  import.meta.env.VITE_API_BASE_URL || "https://gruposie7e-production.up.railway.app/";
 
 export const useFetch = (endpoint) => {
   const [data, setData] = useState(null);
