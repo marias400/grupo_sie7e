@@ -29,8 +29,6 @@
 - **Username:** `mateodiaz@example.com`
 - **Password:** `password123`
 
-&nbsp;&nbsp;&nbsp;The admin dashboard (React + Vite) is also deployed on Railway, as a separate service within the same project, and can be visited at **[dashboard-production-d081.up.railway.app](https://dashboard-production-d081.up.railway.app/)**. It's read-only and doesn't require logging in: just open the link to see a real-time visual overview of the store's users and products (category charts, latest registered user, product listing, etc.), pulling from the same data exposed by the main site's internal API.
-
 ## &#x1F3AF; Target Audience & Offer
 
 &nbsp;&nbsp;&nbsp;We're building for the general public of La Rioja, Argentina looking for a good balance of price, quality, and quantity when ordering food online. To serve that audience, the site offers a varied sandwich menu with options for every diet — vegan, vegetarian, and celiac-friendly — complemented by snacks, desserts, and drinks, all orderable through a simple browse-cart-checkout flow.
