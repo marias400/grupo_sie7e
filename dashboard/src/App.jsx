@@ -1,7 +1,7 @@
 import './App.css'
 import Panel from './components/Panel'
 import { faUser, faClipboard, faUtensils } from "@fortawesome/free-solid-svg-icons";
-import UserTab from './components/userTab'
+import UserTab from './components/UserTab'
 import ProductsList from './components/ProductsList';
 import CategoryChart from './components/CategoryChart';
 import DashboardContainer from './components/DashboardContainer';

@@ -1,5 +1,5 @@
 import { useFetch } from "../hooks/useFetch"
-import "./productList.css"
+import "./ProductList.css"
 
 export default function ProductsList() {
     const { data, isLoading } = useFetch("api/products")
