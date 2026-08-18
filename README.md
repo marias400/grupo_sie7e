@@ -29,8 +29,6 @@
 - **Usuario:** `mateodiaz@example.com`
 - **Contraseña:** `password123`
 
-&nbsp;&nbsp;&nbsp;El dashboard de administración (React + Vite) también está desplegado en Railway, como un servicio aparte dentro del mismo proyecto, y puede visitarse en **[dashboard-production-d081.up.railway.app](https://dashboard-production-d081.up.railway.app/)**. Es de solo lectura y no requiere inicio de sesión: simplemente abrí el link para ver, en tiempo real, un resumen visual de los usuarios y productos cargados en la tienda (gráficos por categoría, último usuario registrado, listado de productos, etc.), consumiendo los mismos datos que expone la API interna del sitio principal.
-
 ## &#x1F3AF; Audiencia Objetivo y Oferta
 
 &nbsp;&nbsp;&nbsp;Nos dirigimos al público en general de la ciudad de La Rioja, Argentina, que busca una buena relación entre precio/calidad/cantidad a la hora de comprar comida online. Para atender a esa audiencia, el sitio ofrece una variedad de sánguches para todos los gustos — apto veganos, apto vegetarianos y apto celíacos — complementada con snacks, postres y bebidas, todo disponible a través de un flujo simple de navegación, carrito y checkout.
